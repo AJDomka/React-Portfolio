@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "OOP",
+    "body": "This is OOP text",
+    "imageURL": "/images/OOP-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "C#",
+    "body": "This is C# text",
+    "imageURL": "/images/Csharp-logo.png"
+  },
+  {
+    "id": 3,
+    "name": "ASP.NET Core",
+    "body": "This is ASP.NET Core text",
+    "imageURL": "/images/NETCore-logo.png"
+  },
+  {
+    "id": 4,
+    "name": "Entity Framework Core",
+    "body": "This is Entity Framework Core text",
+    "imageURL": "/images/Entity-logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Blazor",
+    "body": "This is Blazor text",
+    "imageURL": "/images/Blazor-logo.png"
+  },
+  {
+    "id": 6,
+    "name": "React",
+    "body": "This is React text",
+    "imageURL": "/images/React-logo.png"
+  },
+  {
+    "id": 7,
+    "name": "OOP",
+    "body": "This is OOP text",
+    "imageURL": "/images/OOP-logo.png"
+  },
+  {
+    "id": 8,
+    "name": "C#",
+    "body": "This is C# text",
+    "imageURL": "/images/Csharp-logo.png"
+  },
+  {
+    "id": 9,
+    "name": "ASP.NET Core",
+    "body": "This is ASP.NET Core text",
+    "imageURL": "/images/NETCore-logo.png"
+  },
+  {
+    "id": 10,
+    "name": "Entity Framework Core",
+    "body": "This is Entity Framework Core text",
+    "imageURL": "/images/Entity-logo.png"
+  },
+  {
+    "id": 11,
+    "name": "Blazor",
+    "body": "This is Blazor text",
+    "imageURL": "/images/Blazor-logo.png"
+  },
+  {
+    "id": 12,
+    "name": "React",
+    "body": "This is React text",
+    "imageURL": "/images/React-logo.png"
+  }
+]

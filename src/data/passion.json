@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Adobe",
+    "body": "This is Adobe text",
+    "imageURL": "/images/Adobe-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Photography",
+    "body": "This is Photography text",
+    "imageURL": "/images/Camera-logo.png"
+  },
+  {
+    "id": 3,
+    "name": "Animation",
+    "body": "This is Animation text",
+    "imageURL": "/images/Animation-logo.png"
+  },
+  {
+    "id": 4,
+    "name": "Music",
+    "body": "This is Music text",
+    "imageURL": "/images/Music-logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Comedy",
+    "body": "This is Comedy text",
+    "imageURL": "/images/Comedy-logo.png"
+  }
+]
