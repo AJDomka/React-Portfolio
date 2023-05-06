@@ -5,6 +5,7 @@ type SkillItemProps = {
   id: number;
   name: string;
   body: string;
+  modaltext: string;
   imageurl: string;
 };
 
@@ -24,8 +25,8 @@ export function SkillsModal(props: SkillItemProps) {
             margin: "16px auto",
           }}
         />
-        <Modal.Body>
-          <p>{props.body}</p>
+        <Modal.Body className="text-secondary">
+          <p>{props.modaltext}</p>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>

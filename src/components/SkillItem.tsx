@@ -7,11 +7,18 @@ type SkillItemProps = {
   id: number;
   name: string;
   body: string;
+  modaltext: string;
   imageurl: string;
   // show: this.props.show;
 };
 
-export function SkillItem({ id, name, body, imageurl }: SkillItemProps) {
+export function SkillItem({
+  id,
+  name,
+  body,
+  modaltext,
+  imageurl,
+}: SkillItemProps) {
   const {
     getItemQuantity,
     increaseItemQuantity,
@@ -40,7 +47,7 @@ export function SkillItem({ id, name, body, imageurl }: SkillItemProps) {
           <span className="fs-3">{name}</span>
         </Card.Title>
 
-        <span className="ms-2">
+        <span className="ms-2 text-secondary">
           {body}{" "}
           <Button
             variant="link"
@@ -53,6 +60,7 @@ export function SkillItem({ id, name, body, imageurl }: SkillItemProps) {
             id={id}
             name={name}
             body={body}
+            modaltext={modaltext}
             imageurl={imageurl}
             show={modalShow}
             onHide={() => setModalShow(false)}

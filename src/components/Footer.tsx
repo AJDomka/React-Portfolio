@@ -18,7 +18,13 @@ const Footer = () => (
           <h5 className="text-uppercase">School Projects</h5>
           <ul className="list-unstyled">
             <li>
-              <a href="/CAD">Collaborative App Dev</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://ajdomka.github.io/Collaborative-App-Dev/"
+              >
+                Collaborative App Dev
+              </a>
             </li>
             <li>
               <a href="/SoftwareArch">Software Architecture</a>
