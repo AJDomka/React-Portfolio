@@ -1,28 +1,38 @@
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
+import { SkillsModal } from "./SkillModal";
+import React, { useState } from "react";
 
-type SchoolItemProps = {
+type SkillItemProps = {
   id: number;
   name: string;
   body: string;
-  imageURL: string;
+  imageurl: string;
+  // show: this.props.show;
 };
 
-export function SchoolItem({ id, name, body, imageURL }: SchoolItemProps) {
+export function SkillItem({ id, name, body, imageurl }: SkillItemProps) {
   const {
     getItemQuantity,
     increaseItemQuantity,
     decreaseItemQuantity,
     removeItem,
   } = useShoppingCart();
+
+  // const [show, setShow] = useState(false);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
+  const [modalShow, setModalShow] = React.useState(false);
+
   const quantity = getItemQuantity(id);
   console.log("quantity is:", { quantity });
   return (
     <Card className="h-100">
       <Card.Img
         variant="top"
-        src={imageURL}
-        height="100px"
+        src={imageurl}
+        height="150px"
         style={{ objectFit: "contain", padding: "10px" }}
       />
       <Card.Body className="d-flex flex-column align-items-center">
@@ -30,7 +40,24 @@ export function SchoolItem({ id, name, body, imageURL }: SchoolItemProps) {
           <span className="fs-3">{name}</span>
         </Card.Title>
 
-        <span className="ms-2">{body}</span>
+        <span className="ms-2">
+          {body}{" "}
+          <Button
+            variant="link"
+            style={{ cursor: "pointer", color: "blue" }}
+            onClick={() => setModalShow(true)}
+          >
+            Read More...
+          </Button>
+          <SkillsModal
+            id={id}
+            name={name}
+            body={body}
+            imageurl={imageurl}
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+          />
+        </span>
         <div className="mt-auto">
           {quantity === 0 ? (
             <Button

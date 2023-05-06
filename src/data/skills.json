@@ -1,0 +1,86 @@
+[
+  {
+    "id": 100,
+    "name": "OOP",
+    "body": "Object-Oriented Programming was the subject we spent the most time learning in school. Starting with a Zoo application, and progressing on to more advanced projects like my Capstone project.",
+    "imageurl": "src/images/OOP-logo.png"
+  },
+  {
+    "id": 101,
+    "name": "C#",
+    "body": "C# is the language that was taught the most consistently along side MS SQL. We were introduced to C# with our Zoo application, and continued to use it through-out school and in my Capstone project as well.",
+    "imageurl": "src/images/Csharp-logo.png"
+  },
+  {
+    "id": 102,
+    "name": "ASP.NET Core",
+    "body": "This is ASP.NET Core text",
+    "imageurl": "src/images/NETCore-logo.png"
+  },
+  {
+    "id": 103,
+    "name": "Entity Framework Core",
+    "body": "This is Entity Framework Core text",
+    "imageurl": "src/images/Entity-logo.png"
+  },
+  {
+    "id": 104,
+    "name": "MS SQL Server",
+    "body": "This is SQL text",
+    "imageurl": "src/images/SQL-logo.png"
+  },
+  {
+    "id": 105,
+    "name": "Power BI",
+    "body": "This is Power BI text",
+    "imageurl": "src/images/PowerBI-logo.png"
+  },
+  {
+    "id": 106,
+    "name": "Blazor",
+    "body": "This is Blazor text",
+    "imageurl": "src/images/Blazor-logo.png"
+  },
+  {
+    "id": 107,
+    "name": "React",
+    "body": "This is React text",
+    "imageurl": "src/images/React-logo.png"
+  },
+  {
+    "id": 200,
+    "name": "Adobe",
+    "body": "This is Adobe text",
+    "imageurl": "src/images/Adobe-logo.png"
+  },
+  {
+    "id": 201,
+    "name": "Photography",
+    "body": "This is Photography ladjflkjads lljads lkfj dsalkfj ldsakj flkdasj flkdsaj flkadsj flkdsja lkfjd aslkfj addsaffljdka lfdj alkfjdlk fjlkdasj flkadsj flkjdsalkfj daskjf lksdaj flksdaj flkjasdlfkjadsflklkfj ladskjf lsdakjf lkdsaj frlkdja sfldsaj ljkf  text",
+    "imageurl": "src/images/Camera-logo.png"
+  },
+  {
+    "id": 202,
+    "name": "Animation",
+    "body": "This is Animation text",
+    "imageurl": "src/images/Animation-logo.png"
+  },
+  {
+    "id": 301,
+    "name": "Music",
+    "body": "This is Music text",
+    "imageurl": "src/images/Music-logo.png"
+  },
+  {
+    "id": 302,
+    "name": "Comedy",
+    "body": "This is Comedy text",
+    "imageurl": "src/images/Comedy-logo.png"
+  },
+  {
+    "id": 303,
+    "name": "Disc Golf",
+    "body": "This is Disc Golf text",
+    "imageurl": "src/images/PDGA-logo.png"
+  }
+]

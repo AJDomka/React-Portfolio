@@ -17,14 +17,14 @@ export function Navbar() {
           <Nav.Link to="/about" as={NavLink}>
             About
           </Nav.Link>
-          <Nav.Link to="/school" as={NavLink}>
-            School
-          </Nav.Link>
-          <Nav.Link to="/passion" as={NavLink}>
-            Passion
+          <Nav.Link to="/skills" as={NavLink}>
+            Skills
           </Nav.Link>
           <Nav.Link to="/contact" as={NavLink}>
             Contact
+          </Nav.Link>
+          <Nav.Link to="/portfolio" as={NavLink}>
+            Portfolio
           </Nav.Link>
         </Nav>
         <Button
