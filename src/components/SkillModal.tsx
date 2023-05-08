@@ -1,5 +1,5 @@
+import * as React from "react";
 import { Modal, Button, Container } from "react-bootstrap";
-// import { skillsInfo } from "../data/skills.json";
 
 type SkillItemProps = {
   id: number;
@@ -7,6 +7,8 @@ type SkillItemProps = {
   body: string;
   modaltext: string;
   imageurl: string;
+  show: boolean;
+  onHide: () => void;
 };
 
 export function SkillsModal(props: SkillItemProps) {

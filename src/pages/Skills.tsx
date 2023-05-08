@@ -12,7 +12,13 @@ export function Skills() {
             if (item.id >= 100 && item.id < 200) {
               return (
                 <Col key={item.id}>
-                  <SkillItem {...item} />
+                  <SkillItem
+                    show={false}
+                    onHide={function (): void {
+                      throw new Error("Function not implemented.");
+                    }}
+                    {...item}
+                  />
                 </Col>
               );
             }
@@ -24,7 +30,13 @@ export function Skills() {
             if (item.id >= 200 && item.id < 300) {
               return (
                 <Col key={item.id}>
-                  <SkillItem {...item} />
+                  <SkillItem
+                    show={false}
+                    onHide={function (): void {
+                      throw new Error("Function not implemented.");
+                    }}
+                    {...item}
+                  />
                 </Col>
               );
             }
@@ -36,7 +48,13 @@ export function Skills() {
             if (item.id >= 300 && item.id < 400) {
               return (
                 <Col key={item.id}>
-                  <SkillItem {...item} />
+                  <SkillItem
+                    show={false}
+                    onHide={function (): void {
+                      throw new Error("Function not implemented.");
+                    }}
+                    {...item}
+                  />
                 </Col>
               );
             }

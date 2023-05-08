@@ -4,7 +4,6 @@ import { CartItem } from "./CartItem";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 type ShoppingCartProps = {
-  // children?: ReactNode;
   isOpen: boolean;
   toggle: () => void;
 };

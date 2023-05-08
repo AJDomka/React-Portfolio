@@ -1,7 +1,7 @@
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { SkillsModal } from "./SkillModal";
-import React, { useState } from "react";
+import { useState } from "react";
 
 type SkillItemProps = {
   id: number;
@@ -9,7 +9,8 @@ type SkillItemProps = {
   body: string;
   modaltext: string;
   imageurl: string;
-  // show: this.props.show;
+  show: boolean;
+  onHide: () => void;
 };
 
 export function SkillItem({
@@ -26,11 +27,7 @@ export function SkillItem({
     removeItem,
   } = useShoppingCart();
 
-  // const [show, setShow] = useState(false);
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
-
-  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShow, setModalShow] = useState(false);
 
   const quantity = getItemQuantity(id);
   console.log("quantity is:", { quantity });
