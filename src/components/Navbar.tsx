@@ -3,12 +3,15 @@ import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useCart } from "../hooks/useCart";
 import { Cart } from "./Cart";
+import "../components/css/Navbar.css";
+import { useEffect, useState } from "react";
 
 export function Navbar() {
   const { isOpen, toggle } = useCart();
   const { openCart, cartQuantity } = useShoppingCart();
+
   return (
-    <BsNavbar sticky="top" className="bg-white shadow-sm mb-3">
+    <BsNavbar sticky="top" className="animated-navbar bg-white shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>

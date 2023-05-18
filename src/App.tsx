@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <ShoppingCartProvider>
-        <Navbar />
+        {/* <Navbar /> */}
         <Container className="mb-4">
           <Routes>
             <Route path="/" element={<Home />} />

@@ -1,0 +1,36 @@
+.animated-navbar {
+  position: fixed;
+  top: -100px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-name: navbarFadeIn;
+  &.hidden {
+    animation-name: navbarFadeOut;
+  }
+}
+
+@keyframes navbarFadeIn {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes navbarFadeOut {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: -100px;
+    opacity: 0;
+  }
+}

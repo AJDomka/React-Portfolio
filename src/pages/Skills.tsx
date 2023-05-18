@@ -1,10 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { SkillItem } from "../components/SkillItem";
 import skills from "../data/skills.json";
+import { Navbar } from "../components/Navbar";
 
 export function Skills() {
   return (
     <>
+      <Navbar />
       <Container className="col-10">
         <h1 id="professional-info">Professional</h1>
         <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">

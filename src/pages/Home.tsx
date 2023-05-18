@@ -1,9 +1,40 @@
 import { Container, Card, CardGroup, Col, Button } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
+import { Hero } from "../components/Hero";
+import { Navbar } from "../components/Navbar";
+import { useEffect, useState } from "react";
 
 export function Home() {
+  const [navShow, setNavShow] = useState(0);
+  const [isNavVisible, setIsNavVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setNavShow(window.scrollY);
+      setIsNavVisible(window.scrollY <= 1000);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
+      {/* <Navbar
+        className={navShow > 1000 && navShow !== 0 ? "animated-navbar" : ""}
+      /> */}
+
+      {/* <Navbar>
+        <nav
+          className={navShow > 1000 && navShow !== 0 ? "animated-navbar" : ""}
+        ></nav>
+      </Navbar> */}
+
+      {navShow > 1000 && navShow !== 0 ? <Navbar /> : null}
+      <Hero />
       <Container className="col-10 d-flex flex-wrap">
         <h1 className="ms-3">Hello!! My name is Adam Domka</h1>
         <h5 className="ms-3 text-secondary">

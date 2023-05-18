@@ -1,9 +1,11 @@
 import { Container } from "react-bootstrap";
 import PhotoOfMe from "../images/Portrait.png";
+import { Navbar } from "../components/Navbar";
 
 export function About() {
   return (
     <>
+      <Navbar />
       <Container
         className="col-10"
         style={{
