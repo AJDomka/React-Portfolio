@@ -61,6 +61,7 @@ export function SkillItem({
             imageurl={imageurl}
             show={modalShow}
             onHide={() => setModalShow(false)}
+            website={""}
           />
         </span>
         <div className="mt-auto">

@@ -2,99 +2,100 @@
   {
     "id": 100,
     "name": "OOP",
-    "body": "Object-Oriented Programming was the subject we spent the most time learning in school. Starting with a Zoo application, and progressing on to more advanced projects like my Capstone project.",
-    "modaltext": "Through out my entire time in school, we spent a great deal of time learning about Object-Oriented Programming and the four pillars - abstraction, encapsulation, inheritance, and polymorphism. In order to learn these principles of OOP, we created an application to replicate a zoo using C# and Visual Studio. Our first semester, our class was called Programming Concepts and taught us everything on a conceptual level and had us first write our code with all variables being hard coded. From there, we were able to learn the four pillars by refactoring the code to use inheritance and slowly start encapsulating code as we added more features and abilities for the user. In our second semester, our class was simply called Object-Oriented Programming and that's when the majority of our features were added to complete the application. Our third and final semester, our class was called Object-Oriented Design and it was in this class that we were taught about design patterns such as Singleton and Factory patterns as well as learning about anti-patterns such as Blobs ('God Objects'), Spaghetti Code, and Cut/Paste Programming. For our Final project in that class, we were tasked with creating a simple application using three design patterns. I created a simple text-based game using Singleton to create a single instance of the game - Factory pattern to create different objects/values used in the game, and Builder to create the a 'container' of sorts to hold the objects created by my Factory.",
+    "body": "Object-Oriented Programming was the subject we spent the most time learning in school. Starting with a Zoo application and progressing on to more advanced group projects like my Capstone project.",
+    "modaltext": "Throughout my entire time in school, we spent a great deal of time learning Object-Oriented Programming and its four pillars – abstraction, encapsulation, inheritance, and polymorphism. In order to learn how to apply these principles in a project, we created an application that replicates a zoo using C# and Visual Studio. In our first semester, we had a class called Programming Concepts which taught us the basics on a conceptual level and had us first write our code with all variables being hard coded. From there, we were able to learn how to apply the four pillars of OOP by refactoring our code to use inheritance and slowly start encapsulating our code as we added more features. In our second semester, our class was simply called Object-Oriented Programming and that’s when the rest of our features were added to complete the application. Our third and final semester of OOP related courses was called Object-Oriented Design and we were tasked with creating our own program from scratch using three different design patterns.",
     "imageurl": "src/images/OOP-logo.png"
   },
   {
     "id": 101,
     "name": "C#",
-    "body": "C# is the language that was taught the most consistently alongside MS SQL. We were introduced to C# with our Zoo application, and continued to use it through-out school and in my Capstone project as well.",
-    "modaltext": "Test modal text",
+    "body": "C# was the language that was taught throughout more classes than other languages. We were introduced to C# in our OOP classes with our Zoo application and continued to use it in our more advanced projects in Database classes and other group projects like Capstone.",
+    "modaltext": "We were primarily taught C# during our OOP related courses, but it was also used briefly in some data related courses. We focused more on how to apply the four pillars of OOP rather than the conceptual ideas behind them, but in my continued learning after school ended, I have found a better understanding of them. I spent some time messing around with Unity and using my past 3D modeling experience to try and mess around with a game as a project, and although the task seemed too daunting for me at this stage in my career, I gained a much larger appreciation behind the concepts of the four pillars of OOP while trying to comprehend how I would create classes and interfaces using C# to program any sort of ideas that I had. I would still like to tackle a few projects involving Unity in the future, but for the time being, I’ve decided that my time now would be better spent focusing on career development than learning the subtleties of Unity.",
     "imageurl": "src/images/Csharp-logo.png"
   },
   {
     "id": 102,
     "name": "ASP.NET Core",
-    "body": "This is ASP.NET Core text",
-    "modaltext": "Test modal text",
+    "body": "ASP.Net Core was the framework that was taught the most during the program. It was the primary framework that we used in our solo and group projects for our Software Architecture course as well as being used intermittently in other courses too.",
+    "modaltext": "ASP.Net Core, as well as Entity Framework Core, was introduced to us as students in our Software Architecture course. We were tasked with creating two applications. First, we refactored a previous toy store application from our Collaborative Application Development course to use MVC, ASP.Net Core, and Entity Framework in which a user could add toys to their cart and a checkout page where they could “buy” the products. This was also when we were taught how to access and use an API, as well as connect an MS SQL database to the application to store previous purchases and keep track of product quantities. During this time, we also worked on a group project of our own choosing and were tasked with doing the same thing, but as a group without much guidance.",
     "imageurl": "src/images/NETCore-logo.png"
   },
   {
     "id": 103,
     "name": "Entity Framework Core",
-    "body": "This is Entity Framework Core text",
-    "modaltext": "Test modal text",
+    "body": "Entity Framework Core was the Object-Relational Mapping framework that we were primarily taught during the program. It was the main framework that we used in conjunction with ASP.Net Core in our classes such as Software Architecture.",
+    "modaltext": "Entity Framework Core, as well as ASP.Net Core, was introduced to us as students in our Software Architecture course. We were tasked with creating two applications. First, we refactored a previous toy store application from our Collaborative Application Development course to use MVC, ASP.Net Core, and Entity Framework in which a user could add toys to their cart and a checkout page where they could “buy” the products. This was also when we were taught how to access and use an API, as well as connect an MS SQL database to the application to store previous purchases and keep track of product quantities. During this time, we also worked on a group project of our own choosing and were tasked with doing the same thing, but as a group without much guidance. ",
     "imageurl": "src/images/Entity-logo.png"
   },
   {
     "id": 104,
     "name": "MS SQL Server",
-    "body": "This is SQL text",
-    "modaltext": "Test modal text",
+    "body": "Microsoft SQL Server was the primary database management system that was taught during the program. We were introduced to MongoDB in our Open-Source Web Dev course, but we used MS SQL in all our data related courses.",
+    "modaltext": "We first started learning about MS SQL in our first semester course – Data Concepts – and continued to learn about it more in depth during our Database Design and Advanced Data Management courses. In Data Concepts, we learned a lot about syntax, keys/relationships and diagrams - such as a Crows Foot diagram. In Database Design, we learned the importance of design processes and spent a great deal of time focusing more on topics that were only introduced to us before – such as normalization and data integrity. Finally, in Advanced Data Management, we were introduced to Power BI and more advanced concepts relating to query optimization such as the use of indexes. Although we were taught most of our knowledge in the three courses mentioned above, we did take that knowledge and use it in other projects throughout the program to reinforce our knowledge and proper techniques.",
     "imageurl": "src/images/SQL-logo.png"
   },
   {
     "id": 105,
     "name": "Power BI",
-    "body": "This is Power BI text",
-    "modaltext": "Test modal text",
+    "body": "Power-BI was taught in our final data related course – Advanced Data Management. We were not introduced to any other data visualization software, but we spent a majority of the semester learning how to use Power BI and a large chunk of its main features with a database of our choice.",
+    "modaltext": "Power BI was the only data visualization software that we were taught while in school during our final data related course – Advanced Data Management. During that time, we picked a database of our choice from a website provided to use by the instructor, and after learning more about how to improve our query optimization, we spent about two-thirds of our course learning Power BI and data modeling so that we could present the information in a manner that could be used by non-developers to create reports that could be used for data-driven decisions – another topic we were taught during the course.",
     "imageurl": "src/images/PowerBI-logo.png"
   },
   {
     "id": 106,
     "name": "Blazor",
-    "body": "This is Blazor text",
-    "modaltext": "Test modal text",
+    "body": "Blazor was only introduced to us as students in our Capstone project. We were tasked with starting a new project, rather than working on an older project from previous semesters, and our instructor tasked us with researching and implementing Blazor as the web framework to use for our Lego application.",
+    "modaltext": "Blazor is not a framework that had dedicated course material to learn from in school. It was introduced to myself and my group for our Capstone project and we were entirely reliant on each other to learn what was necessary to build the application given to us by our instructor. At the beginning of the project, I was tasked with researching and deciding whether to build a Server-Side app or a Web Assembly (WASM). After much discussion between the team and our instructor, we decided to go with a WASM app for three main reasons. First, the starting template to a WASM seemed more similar to our past MVC projects. Second, our instructor liked the idea of the application being able to run offline. Lastly, we had limited resources available to us for handling server-side processing and we believed that offloading such processes to the client-side would allow us to handle such large request with our API queries to the BrickLink database that we used – containing over 77,000 individual parts. This did lead to load times that would most likely have been shorter had we built a server-side app, but I still believe it was the best option given the resources that we had available to us.",
     "imageurl": "src/images/Blazor-logo.png"
   },
   {
     "id": 107,
     "name": "React",
-    "body": "This is React text",
-    "modaltext": "Test modal text",
+    "body": "I was not taught React in school, as it was introduced into our Open-Source Web Dev course the semester after I completed the course. I am entirely self-taught when it comes to React, and I created THIS website as a project to learn React.",
+    "modaltext": "React is something I had heard about quite a bit in school, but it was only introduced to the program the semester after I had taken the course which now teaches it. It has been quite the experience trying to learn React on my own since the idea of Fundamental Programming was not a topic of discussion during my time in the program. I have found React to be very interesting with how it uses components in a reusable manner, similar to how I view classes to be reusable objects like we were taught in our OOP courses. I’m also intrigued by the use of one-way binding when passing parameters from parent components to child components and how that can keep data safe from unwanted changes. But what I’m most fascinated about is the use of React Hooks. I’ll admit that I don’t have the deepest understanding of how they work, but it remains one of my favorite aspects of React to try and implement as I continue to learn more about it.",
     "imageurl": "src/images/React-logo.png"
   },
   {
     "id": 200,
     "name": "Adobe",
-    "body": "This is Adobe text",
-    "modaltext": "Test modal text",
+    "body": "I learned the Adobe Suite with the help of a friend who I partnered with to produce a handful of projects with local comedians and musicians in the Madison area. I primarily used Premiere Pro, Photoshop, and Audition to create most of the productions, but I quickly fell in love with the capabilities of Illustrator and After Effects.",
+    "modaltext": "My passion for multi-media production started when I was in high school, but it wasn’t until my mid-to-late twenties that I came to a full understanding of my passion. I grew up on cartoons and stand-up comedy, and I’m still a fan of them both to this day. I’m in awe by the power that is behind the tools of media production such as Premiere Pro, Photoshop, and After Effects. Having the ability to take something as simple as a shape and then mold it or transform it like how a sculptor would work with a block of stone or clay to create something new is mind-blowing to me. I haven’t spent too much time using Adobe in the past few years due to my studies in school, but once I get a job in the software development field, I fully intend on picking up this passion as a hobby again – and maybe someday, be able to incorporate it into the professional world as I progress in my career.",
     "imageurl": "src/images/Adobe-logo.png"
   },
   {
     "id": 201,
     "name": "Photography",
-    "body": "This is Photography ladjflkjads lljads lkfj dsalkfj ldsakj flkdasj flkdsaj flkadsj flkdsja lkfjd aslkfj addsaffljdka lfdj alkfjdlk fjlkdasj flkadsj flkjdsalkfj daskjf lksdaj flksdaj flkjasdlfkjadsflklkfj ladskjf lsdakjf lkdsaj frlkdja sfldsaj ljkf  text",
-    "modaltext": "Test modal text",
+    "body": "During my early years of learning multi-media production, I tended to stay away from the camera, but as I continued to learn more about production, I became fonder of being behind the lens. I spent countless nights going to local concerts to take photos of bands during their performances.",
+    "modaltext": "When I started working behind a camera, I was generally using low quality cameras and only shooting video. I didn’t really understand the power of photography until I went out on my own with a decent camera to take photos. Most of the photos I took were during live concerts, but after messing around with a few different lenses and lighting scenarios, I quickly realized how the depth and framing of a shot could dramatically change the appearance of the subject. From then on, I fell in love with the idea of being able to capture moments in time that didn’t come across as bland as photos from a cellphone or the old digital cameras I grew up with.",
     "imageurl": "src/images/Camera-logo.png"
   },
   {
     "id": 202,
     "name": "Animation",
-    "body": "This is Animation text",
-    "modaltext": "Test modal text",
+    "body": "My passion for animation didn’t start immediately, but the more I learned about media production, the more I became interested. After taking the Animation Bootcamp with School of Motion and learning the 12 principles of animation, I quickly fell in love with the art style.",
+    "modaltext": "Like most kids, I grew up loving cartoons and all types of animation. As I grew older, I briefly thought it was a phase that I would grow out of with time, but as cartoons and animation were such a large part of my generation, I soon saw the ability to keep it relevant with absurd ideas and more mature stories/themes to the stories. Now, in the digital age, I see endless possibilities for its use in modern entertainment, but also, more importantly, technology (UI/UX) and the distribution of knowledge. My love for animation, and its endless use-case scenarios, is something I plan to continue to pursue for a long time.",
     "imageurl": "src/images/Animation-logo.png"
   },
   {
     "id": 301,
     "name": "Music",
-    "body": "This is Music text",
-    "modaltext": "Test modal text",
+    "body": "Although I never truly learned how to play an instrument, a lot of my friends growing up did. My love and understanding for music have earned me the respect of some of my closest friends who are musicians, and they often ask me for my input on their new projects.",
+    "modaltext": "Music and animation (and video games) were some of my favorite things to enjoy in my free time growing up. I have gone to more concerts than I could even try to remember, and I have more friends who are musicians than not, but it’s the one passion of mine that I would consider more of a hobby since it’s not something I ever spent much time learning. I have a good enough grasp of music theory, and a good ear to know what something “should” sound like, that I’ve earned the respect form my musician friends and are often asked for feedback on their projects. I’ve gone on a few tours with bands and was frequently asked “how it sounded” or if I could notice they “played out of tune/sang out of key” during certain parts of their set. Maybe someday I’ll try to turn this hobby into more of a passion, but for the time being, I think I have enough other hobbies and side projects that I would like to pursue first. I’ll just leave it to my friends to make me new music that I enjoy listening to!",
     "imageurl": "src/images/Music-logo.png"
   },
   {
     "id": 302,
     "name": "Comedy",
-    "body": "This is Comedy text",
-    "modaltext": "Test modal text",
+    "body": "I have been a fan of stand-up comedy for as long as I can remember. I used to have a collection of VHS tapes containing all the half-hour specials of Comedy Central Presents, and I believe my love and understanding for the art is what made the local comedians I’ve worked with in the past so willing to work with me on my past productions.",
+    "modaltext": "Similar to my hobby of music, comedy was something I have always been very fond of. I spent a few years working with some local comedians in the Madison area, and lived with a stand-up comic for a year, and it was during that time that I realized how insanely tough the world of comedy is. Like music, I can tell when a joke will work or not, but that doesn’t mean I can write them. I tried a few open mics that my roommate hosted and believe me when I say that I felt more anxiety in those 3 minutes than I have ever felt at any other point in my life. I’ll also leave the joke writing to comedians the same way I will with music, but it will always be something that I am very fond of.",
     "imageurl": "src/images/Comedy-logo.png"
   },
   {
     "id": 303,
     "name": "Disc Golf",
-    "body": "This is Disc Golf text",
-    "modaltext": "Test modal text",
-    "imageurl": "src/images/PDGA-logo.png"
+    "body": "I was introduced to disc golf almost 15 years ago, but it wasn’t until recently that I became a more avid player. Over the 18 months or so, I have travelled around the state to play at different courses, and I was able was able to shave off about 6 or 7 strokes from my average at what I would consider my “home course” at Northcentral Technical College.",
+    "modaltext": "Disc golf is one of the few sports that I have kept a passion for in my adult life. I was introduced to it in my early twenties and didn’t play very often. I was decent for someone who didn’t take it seriously at the time, but I never really tried to hone my skills as I had many more hobbies to juggle at the time. In my later twenties, I stopped following almost all sports in general and didn’t play disc golf for about 5 years or so. During covid shutdown I decided to go back to college again and realized that there was a disc golf course at my school’s campus. I went a few times on my own and quickly fell back in love with the sport and started a collection of different discs I could use and learning how they fly. I bugged a handful of friends to join me before getting two more of them sucked into the sport as well, and now we’ve been going as much as the seasons allow. I recently joined the PDGA with the hopes of being able to compete in a few tournaments this summer to see how I stack up against others in the state. If you don’t believe me, type my name (or another registered PDGA member like my favorite pros Simon Lizotte and Calvin Heimburg) in the fields below to see for yourself! --- These fields are connected to the PDGA API found at  ---",
+    "imageurl": "src/images/PDGA-logo.png",
+    "website": "https://www.pdga.com/dev"
   }
 ]
