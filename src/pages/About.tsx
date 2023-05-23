@@ -1,25 +1,21 @@
-import { Container } from "react-bootstrap";
+import "../components/css/About.css";
 import PhotoOfMe from "../images/Portrait.png";
-import { Navbar } from "../components/Navbar";
 
 export function About() {
   return (
     <>
-      <Navbar />
-      <Container
-        className="col-10"
+      <div
+        id="about-me"
         style={{
           display: "flex",
           flexWrap: "wrap",
-          justifyContent: "center",
           paddingTop: "25px",
         }}
       >
-        <div className="col-10">
-          <h1 className="m-3">How did I get here?</h1>
-          <img src={PhotoOfMe} height="333px" />
+        <div className="portrait">
+          <img src={PhotoOfMe} />
         </div>
-        <div className="col-10">
+        <div>
           <h2 className="my-3">How did I start my professional career?</h2>
           <p className="text-secondary px-2">
             My first round of school led me into the manufacturing world with a
@@ -51,7 +47,7 @@ export function About() {
             passion for animation.
           </p>
         </div>
-      </Container>
+      </div>
     </>
   );
 }

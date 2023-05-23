@@ -8,7 +8,7 @@ export function Skills() {
     <>
       <Navbar />
       <Container className="col-10">
-        <h1 id="professional-info">Professional</h1>
+        <h1 id="technical-info">Technical</h1>
         <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
           {skills.map((item) => {
             if (item.id >= 100 && item.id < 200) {

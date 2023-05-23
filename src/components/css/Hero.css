@@ -7,7 +7,7 @@
   /* justify-content: space-between; */
   /* gap: 1.9rem; */
   width: 100%;
-  height: 1000px;
+  height: 750px;
   background: rgba(0, 0, 0, 0.3);
   padding: 16px 0;
   margin: 16px auto 48px;
@@ -29,14 +29,20 @@
   }
 }
 
-.hero img {
-  max-width: 100%;
-  height: auto;
-  /* ie8 */
-  /* width: auto\9; */
+.hero h1 {
+  font-size: 64px;
+  margin: 16px auto;
+  width: 90%;
 }
 
-.hero h1 {
-  text-align: center;
-  color: purple;
+.hero h3 {
+  margin: 36px auto;
+  width: 75%;
+  color: grey;
+}
+
+.hero p {
+  margin: auto;
+  width: 60%;
+  color: grey;
 }

@@ -4,7 +4,6 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useCart } from "../hooks/useCart";
 import { Cart } from "./Cart";
 import "../components/css/Navbar.css";
-import { useEffect, useState } from "react";
 
 export function Navbar() {
   const { isOpen, toggle } = useCart();
@@ -16,9 +15,6 @@ export function Navbar() {
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
             Home
-          </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
-            About
           </Nav.Link>
           <Nav.Link to="/skills" as={NavLink}>
             Skills
