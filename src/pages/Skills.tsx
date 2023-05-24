@@ -10,16 +10,16 @@ export function Skills() {
       <Container className="col-10">
         <h1 id="technical-info">Technical</h1>
         <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
-          {skills.map((item) => {
-            if (item.id >= 100 && item.id < 200) {
+          {skills.map((skill) => {
+            if (skill.id >= 100 && skill.id < 200) {
               return (
-                <Col key={item.id}>
+                <Col key={skill.id}>
                   <SkillItem
                     show={false}
                     onHide={function (): void {
                       throw new Error("Function not implemented.");
                     }}
-                    {...item}
+                    {...skill}
                   />
                 </Col>
               );
@@ -28,16 +28,16 @@ export function Skills() {
         </Row>
         <h1 id="passion-info">Passion</h1>
         <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
-          {skills.map((item) => {
-            if (item.id >= 200 && item.id < 300) {
+          {skills.map((skill) => {
+            if (skill.id >= 200 && skill.id < 300) {
               return (
-                <Col key={item.id}>
+                <Col key={skill.id}>
                   <SkillItem
                     show={false}
                     onHide={function (): void {
                       throw new Error("Function not implemented.");
                     }}
-                    {...item}
+                    {...skill}
                   />
                 </Col>
               );
@@ -46,16 +46,16 @@ export function Skills() {
         </Row>
         <h1 id="hobby-info">Hobbies</h1>
         <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
-          {skills.map((item) => {
-            if (item.id >= 300 && item.id < 400) {
+          {skills.map((skill) => {
+            if (skill.id >= 300 && skill.id < 400) {
               return (
-                <Col key={item.id}>
+                <Col key={skill.id}>
                   <SkillItem
                     show={false}
                     onHide={function (): void {
                       throw new Error("Function not implemented.");
                     }}
-                    {...item}
+                    {...skill}
                   />
                 </Col>
               );

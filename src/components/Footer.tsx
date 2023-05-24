@@ -42,13 +42,41 @@ const Footer = () => (
               <a href="/EngineeringTomorrow">Engineering Tomorrow</a>
             </li>
             <li>
-              <a href="/Animation">Animation</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/watch?v=FOz4T-JL-qw"
+              >
+                Motion Design Part 1
+              </a>
             </li>
             <li>
-              <a href="/LucidPasta">Lucid Pasta</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/watch?v=MUIZZFrzV7o"
+              >
+                Motion Design Part 2
+              </a>
+            </li>
+
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/@lucidpastamedia"
+              >
+                Lucid Pasta
+              </a>
             </li>
             <li>
-              <a href="/MostlyWaste">Mostly Waste</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/@mostlywaste"
+              >
+                Mostly Waste
+              </a>
             </li>
           </ul>
         </Col>
@@ -57,10 +85,22 @@ const Footer = () => (
           <h5 className="text-uppercase">Social Media</h5>
           <ul className="list-unstyled">
             <li>
-              <a href="#!">LinkedIn</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/adam-domka/"
+              >
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="#!">GitHub</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/AJDomka"
+              >
+                GitHub
+              </a>
             </li>
           </ul>
         </Col>

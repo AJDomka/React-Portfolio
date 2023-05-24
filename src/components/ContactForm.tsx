@@ -1,15 +1,28 @@
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import "./css/ContactForm.css";
 import { StateDropdown } from "./StateDropdown";
 
 export function ContactForm() {
-  const [name, setName] = useState("");
+  const [fName, setFName] = useState("");
+  const [lName, setLName] = useState("");
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    alert(`The name you entered was: ${name}`);
+    alert(`The name you entered was: ${fName} ${lName}`);
   };
+
+  const handleFNameChange = (e: {
+    target: { value: SetStateAction<string> };
+  }) => {
+    setFName(e.target.value);
+  };
+  const handleLNameChange = (e: {
+    target: { value: SetStateAction<string> };
+  }) => {
+    setLName(e.target.value);
+  };
+
   return (
     <>
       <Form className="mt-4">
@@ -19,14 +32,24 @@ export function ContactForm() {
           <Col className="me-3">
             <Form.Group className="mb-3" controlId="formFirstName">
               <Form.Label className="w-100">First Name</Form.Label>
-              <Form.Control type="text" placeholder="John" />
+              <Form.Control
+                type="text"
+                placeholder="John"
+                value={fName}
+                onChange={handleFNameChange}
+              />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
           </Col>
           <Col className="ms-3">
             <Form.Group className="mb-3" controlId="formLastName">
               <Form.Label>Last Name</Form.Label>
-              <Form.Control type="text" placeholder="Doe" />
+              <Form.Control
+                type="text"
+                placeholder="Doe"
+                value={lName}
+                onChange={handleLNameChange}
+              />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
           </Col>

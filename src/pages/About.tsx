@@ -41,10 +41,10 @@ export function About() {
             of animating in After Effects was painfully time consuming when done
             keyframe by keyframe. I quickly learned a background in JavaScript
             and programming fundamentals would help immensley with speeeding up
-            the animation process with the use of Affter Effects Scripting and
-            Expressions. That's when I decided that focusing on a software
+            the Motion Design process with the use of Affter Effects Scripting
+            and Expressions. That's when I decided that focusing on a software
             developer career, I would be able to improve the skills behind my
-            passion for animation.
+            passion for Motion Design.
           </p>
         </div>
       </div>
