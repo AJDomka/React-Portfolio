@@ -1,3 +1,4 @@
+import React from "react";
 import "../components/css/About.css";
 import PhotoOfMe from "../images/Portrait.png";
 
