@@ -20,7 +20,7 @@ type ShoppingCartProps = {
 
 export function Cart(props: ShoppingCartProps) {
   const { cartItems, cartQuantity } = useShoppingCart();
-  console.log("props obj:", props);
+  // console.log("props obj:", props);
 
   const [showCheckout, setShowCheckout] = useState(false);
 

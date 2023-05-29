@@ -1,0 +1,53 @@
+.add-remove-btn {
+  padding: 5px, 50px;
+  margin-top: 10px;
+  width: 160px;
+}
+
+.card-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-item-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 8px;
+}
+
+.card-img {
+  object-fit: contain;
+  padding: 10px;
+  height: 150px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.card-title-span {
+  font-size: 32px;
+}
+
+.quantity-span {
+  font-size: 24px;
+}
+
+.body-span {
+  margin-inline-start: 8px;
+  color: grey;
+}
+
+.add-remove {
+  margin-top: auto;
+}

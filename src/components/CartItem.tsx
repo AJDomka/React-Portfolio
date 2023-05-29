@@ -14,7 +14,7 @@ export function CartItem({ id, quantity }: CartItemsProps) {
 
   if (item == null) return null;
 
-  console.log("CartItem qty:", quantity);
+  // console.log("CartItem qty:", quantity);
 
   return (
     <Stack direction="horizontal" gap={2} className="d-flex align-items-center">

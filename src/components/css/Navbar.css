@@ -1,4 +1,7 @@
 .animated-navbar {
+  background-color: white;
+  margin-bottom: 16px;
+  box-shadow: 0 16px 8px -8px lightgrey;
   position: fixed;
   top: -100px;
   left: 0;
@@ -33,4 +36,22 @@
     top: -100px;
     opacity: 0;
   }
+}
+
+.cart-btn {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
+.cart-badge {
+  background-color: rgb(223, 71, 89);
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(33%, 33%);
 }

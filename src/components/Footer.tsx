@@ -1,22 +1,21 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./css/Footer.css";
-import { Link } from "react-router-dom";
 
 const Footer = () => (
   <>
-    <Container fluid className="text-center bg-info">
+    <Container fluid className="footer-container">
       <Row>
         <Col>
-          <h5 className="text-uppercase">Adam Domka</h5>
+          <h5>Adam Domka</h5>
           <p>Browse the links below to view some of my projects.</p>
         </Col>
 
-        <hr className="clearfix w-100 pb-0" />
+        <hr />
 
         <Col>
-          <h5 className="text-uppercase">School Projects</h5>
-          <ul className="list-unstyled">
+          <h5>School Projects</h5>
+          <ul className="link-list">
             <li>
               <a
                 target="_blank"
@@ -36,8 +35,8 @@ const Footer = () => (
         </Col>
 
         <Col>
-          <h5 className="text-uppercase">Passion Projects</h5>
-          <ul className="list-unstyled">
+          <h5>Passion Projects</h5>
+          <ul className="link-list">
             <li>
               <a href="/EngineeringTomorrow">Engineering Tomorrow</a>
             </li>
@@ -82,8 +81,8 @@ const Footer = () => (
         </Col>
 
         <Col>
-          <h5 className="text-uppercase">Social Media</h5>
-          <ul className="list-unstyled">
+          <h5>Social Media</h5>
+          <ul className="link-list">
             <li>
               <a
                 target="_blank"

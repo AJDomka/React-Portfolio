@@ -22,3 +22,23 @@
 .cart-title {
   text-align: center;
 }
+
+/* .add-remove-skill-btn {
+  padding: 5px, 50px;
+  margin-top: 10px;
+  width: 160px;
+}
+
+.card-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-item-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 8px;
+} */

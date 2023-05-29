@@ -46,3 +46,14 @@
   width: 60%;
   color: grey;
 }
+
+.link-btn {
+  margin: 24px auto;
+  padding: 24px;
+  width: 160px;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}

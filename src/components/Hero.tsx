@@ -16,37 +16,19 @@ export function Hero() {
             we can achieve together.
           </p>
         </div>
-        <Link
-          to="/#about-me"
-          className="btn btn-primary ms-auto me-auto my-2"
-          role="button"
-        >
+        <Link to="/#about-me" className="link-btn" role="button">
           About Me
         </Link>
 
-        <Link
-          to="/Skills#technical-info"
-          className="btn btn-primary ms-auto me-auto my-2"
-          role="button"
-        >
+        <Link to="/Skills#technical-info" className="link-btn" role="button">
           Technical Skills
         </Link>
-        <Link
-          to="/Skills#passion-info"
-          className="btn btn-primary ms-auto me-auto my-2"
-          role="button"
-        >
+        <Link to="/Skills#passion-info" className="link-btn" role="button">
           Passion Skills
         </Link>
-        <Link
-          to="/Skills#hobby-info"
-          className="btn btn-primary ms-auto me-auto my-2"
-          role="button"
-        >
+        <Link to="/Skills#hobby-info" className="link-btn" role="button">
           Hobbies
         </Link>
-
-        {/* <img src={PhotoOfMe} /> */}
       </section>
     </>
   );

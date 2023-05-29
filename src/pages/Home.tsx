@@ -27,13 +27,6 @@ export function Home() {
       {navShow > 750 && navShow !== 0 ? <Navbar /> : null}
       <Hero />
       <Container className="col-12 d-flex flex-wrap">
-        <h1>Want to know more about me?</h1>
-        <h5 className="ms-3 text-secondary">
-          I am recent graduate of Northcentral Technical College in Wausau and I
-          graduated with my second associates degree, this time in the IT -
-          Software Developer program.
-        </h5>
-
         <About />
         {/* <CardGroup className="me-auto ms-auto w-100">
           <Card className="m-2">
