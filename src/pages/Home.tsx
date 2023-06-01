@@ -4,6 +4,7 @@ import { Hero } from "../components/Hero";
 import { Navbar } from "../components/Navbar";
 import { useEffect, useState } from "react";
 import { About } from "./About";
+import TypingHeader from "../components/TypingHeader";
 
 export function Home() {
   const [navShow, setNavShow] = useState(0);
@@ -25,6 +26,7 @@ export function Home() {
   return (
     <>
       {navShow > 750 && navShow !== 0 ? <Navbar /> : null}
+      {/* <TypingHeader /> */}
       <Hero />
       <Container className="col-12 d-flex flex-wrap">
         <About />
