@@ -4,13 +4,13 @@ li a {
 }
 
 h5 {
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
 .footer-container {
   text-align: center;
-  background-color: lightgrey;
+  background-color: black;
 }
 
 .link-list {

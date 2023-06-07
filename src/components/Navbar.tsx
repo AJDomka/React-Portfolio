@@ -12,17 +12,17 @@ export function Navbar() {
   return (
     <BsNavbar sticky="top" className="animated-navbar">
       <Container>
-        <Nav className="me-auto">
-          <Nav.Link to="/" as={NavLink}>
+        <Nav>
+          <Nav.Link id="nav-text" to="/" as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to="/skills" as={NavLink}>
+          <Nav.Link id="nav-text" to="/skills" as={NavLink}>
             Skills
           </Nav.Link>
-          <Nav.Link to="/contact" as={NavLink}>
+          <Nav.Link id="nav-text" to="/contact" as={NavLink}>
             Contact
           </Nav.Link>
-          <Nav.Link to="/portfolio" as={NavLink}>
+          <Nav.Link id="nav-text" to="/portfolio" as={NavLink}>
             Portfolio
           </Nav.Link>
         </Nav>

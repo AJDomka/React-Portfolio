@@ -34,7 +34,7 @@ export function SkillItem({
 
   // console.log("quantity is:", { quantity });
   return (
-    <Card className="h-100">
+    <Card className="card-container">
       <Card.Img variant="top" src={imageurl} className="card-img" />
       <Card.Body className="card-body">
         <Card.Title className="card-title">
@@ -43,7 +43,11 @@ export function SkillItem({
 
         <span className="body-span">
           {body}{" "}
-          <Button variant="link" onClick={() => setModalShow(true)}>
+          <Button
+            className="read-link"
+            variant="link"
+            onClick={() => setModalShow(true)}
+          >
             Read More...
           </Button>
           <SkillsModal
@@ -54,7 +58,6 @@ export function SkillItem({
             imageurl={imageurl}
             show={modalShow}
             onHide={() => setModalShow(false)}
-            website={""}
           />
         </span>
         <div className="add-remove">
@@ -72,9 +75,9 @@ export function SkillItem({
                 <div>
                   <span className="quantity-span">{quantity}</span>{" "}
                   {quantity === 1 ? (
-                    <span>item in cart</span>
+                    <span className="items-span">item in cart</span>
                   ) : (
-                    <span>items in cart</span>
+                    <span className="items-span">items in cart</span>
                   )}
                 </div>
                 <Button onClick={() => increaseItemQuantity(id)}>+</Button>

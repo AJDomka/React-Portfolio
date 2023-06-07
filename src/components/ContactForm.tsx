@@ -26,13 +26,13 @@ export function ContactForm() {
 
   return (
     <>
-      <Form className="mt-4">
+      <Form className="form-container">
         {/* Name section */}
-        <Row className="col-10 w-100">
-          <h3>Tell me a little bit about you</h3>
-          <Col className="me-3">
-            <Form.Group className="mb-3" controlId="formFirstName">
-              <Form.Label className="w-100">First Name</Form.Label>
+        <Row className="row-container">
+          <h3 className="title-text">Tell me a little bit about you</h3>
+          <Col className="col-container-left">
+            <Form.Group className="form-group" controlId="formFirstName">
+              <Form.Label className="label-container">First Name</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="John"
@@ -42,9 +42,9 @@ export function ContactForm() {
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
           </Col>
-          <Col className="ms-3">
-            <Form.Group className="mb-3" controlId="formLastName">
-              <Form.Label>Last Name</Form.Label>
+          <Col className="col-container-right">
+            <Form.Group className="form-group" controlId="formLastName">
+              <Form.Label className="label-container">Last Name</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Doe"
@@ -57,10 +57,10 @@ export function ContactForm() {
         </Row>
 
         {/* Phone and email section */}
-        <Row className="col-10 w-100">
-          <Col className="me-3">
-            <Form.Group className="mb-3" controlId="formPhoneNumber">
-              <Form.Label>Phone Number</Form.Label>
+        <Row className="row-container">
+          <Col className="col-container-left">
+            <Form.Group className="form-group" controlId="formPhoneNumber">
+              <Form.Label className="label-container">Phone Number</Form.Label>
               <Form.Control
                 type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
@@ -69,26 +69,26 @@ export function ContactForm() {
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
           </Col>
-          <Col className="ms-3">
-            <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Label>Email address</Form.Label>
+          <Col className="col-container-right">
+            <Form.Group className="form-group" controlId="formEmail">
+              <Form.Label className="label-container">Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
           </Col>
         </Row>
 
-        <Row className="col-10 w-100">
-          <Col className="me-3">
-            <Form.Group className="mb-3" controlId="formState">
-              <Form.Label>State</Form.Label>
+        <Row className="row-container">
+          <Col className="col-container-left">
+            <Form.Group className="form-group" controlId="formState">
+              <Form.Label className="label-container">State</Form.Label>
               <Form.Select aria-label="Select state">
                 <StateDropdown />
               </Form.Select>
             </Form.Group>
           </Col>
-          <Col className="d-flex align-items-center ms-3">
-            <Form.Label className="me-4 mt-3">
+          <Col className="col-container-checkbox">
+            <Form.Label className="label-checkbox">
               I don't live in the US
             </Form.Label>
             <Form.Check className="ms-4 mt-2" type="checkbox" />
@@ -96,14 +96,16 @@ export function ContactForm() {
         </Row>
 
         {/* Message and submit section */}
-        <Form.Group className="mb-3" controlId="formMessage">
-          <Form.Label>What did you want to tell me?</Form.Label>
-          <textarea className="w-100" id="textarea" rows={5} />
+        <Form.Group className="form-group" controlId="formMessage">
+          <Form.Label className="label-container">
+            What did you want to tell me?
+          </Form.Label>
+          <textarea id="textarea" rows={5} />
         </Form.Group>
 
         <Button
           variant="primary"
-          className="w-25 me-auto ms-auto"
+          className="btn-submit"
           type="submit"
           onClick={handleSubmit}
         >

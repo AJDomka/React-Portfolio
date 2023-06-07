@@ -1,0 +1,61 @@
+.animated-navbar {
+  background-color: black;
+  margin-bottom: 16px;
+  box-shadow: 0 16px 8px -8px lightgrey;
+  position: fixed;
+  top: -100px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-name: navbarFadeIn;
+  &.hidden {
+    animation-name: navbarFadeOut;
+  }
+}
+
+@keyframes navbarFadeIn {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes navbarFadeOut {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: -100px;
+    opacity: 0;
+  }
+}
+
+.cart-btn {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
+.cart-badge {
+  background-color: rgb(223, 71, 89);
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(33%, 33%);
+}
+
+#nav-text {
+  color: white;
+}

@@ -2,6 +2,11 @@ form {
   text-align: left;
   display: flex;
   flex-direction: column;
+  background-color: black;
+}
+
+.title-text {
+  color: white;
 }
 
 .form-container {
@@ -31,8 +36,12 @@ form {
   margin-bottom: 16px;
 }
 
+.label-container {
+  color: white;
+}
+
 .label-checkbox {
-  color: black;
+  color: white;
   margin-inline-start: 8px;
   margin-top: 16px;
 }

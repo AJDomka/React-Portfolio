@@ -8,7 +8,6 @@ type SkillItemProps = {
   body: string;
   modaltext: string;
   imageurl: string;
-  website: string;
   show: boolean;
   onHide: () => void;
 };

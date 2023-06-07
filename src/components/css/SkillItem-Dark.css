@@ -6,7 +6,7 @@
 
 .card-container {
   height: 100% !important;
-  background-color: rgb(222, 222, 222, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .card-col {
@@ -39,6 +39,7 @@
 .card-title {
   display: flex;
   padding-bottom: 24px;
+  color: white;
 }
 
 .card-title-span {
@@ -47,13 +48,22 @@
 
 .quantity-span {
   font-size: 24px;
+  color: white;
 }
 
 .body-span {
   margin-inline-start: 8px;
-  color: grey;
+  color: white;
+}
+
+.items-span {
+  color: white;
 }
 
 .add-remove {
   margin-top: auto;
+}
+
+.read-link {
+  color: black;
 }

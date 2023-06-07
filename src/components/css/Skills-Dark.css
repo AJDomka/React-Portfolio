@@ -1,0 +1,22 @@
+#row-container {
+  row-gap: 16px;
+  margin: 8px 0;
+  padding: 16px 0;
+}
+
+#container-col {
+  width: 83.33%;
+  background-color: black;
+}
+
+#technical-info {
+  color: white;
+}
+
+#passion-info {
+  color: white;
+}
+
+#hobby-info {
+  color: white;
+}

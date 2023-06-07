@@ -14,7 +14,6 @@ import { SoftwareArch } from "./pages/subPages/SoftwareArch";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import Loading from "./components/Loading";
-import TypingHeader from "./components/TypingHeader";
 
 function App() {
   const { isOpen, toggle } = useCart();
@@ -46,7 +45,6 @@ function App() {
                   element={<EngineeringTomorrow />}
                 />
                 <Route path="/SoftwareArch" element={<SoftwareArch />} />
-                {/* <Route path='/signin' element={<SignIn />} /> */}
               </Routes>
             </Container>
             <Cart isOpen={isOpen} toggle={toggle}></Cart>

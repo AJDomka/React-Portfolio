@@ -2,14 +2,15 @@ import { Col, Container, Row } from "react-bootstrap";
 import { SkillItem } from "../components/SkillItem";
 import skills from "../data/skills.json";
 import { Navbar } from "../components/Navbar";
+import "../components/css/Skills.css";
 
 export function Skills() {
   return (
     <>
       <Navbar />
-      <Container className="col-10">
+      <Container id="container-col">
         <h1 id="technical-info">Technical</h1>
-        <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
+        <Row xs={1} md={2} lg={3} id="row-container">
           {skills.map((skill) => {
             if (skill.id >= 100 && skill.id < 200) {
               return (
@@ -27,7 +28,7 @@ export function Skills() {
           })}
         </Row>
         <h1 id="passion-info">Passion</h1>
-        <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
+        <Row xs={1} md={2} lg={3} id="row-container">
           {skills.map((skill) => {
             if (skill.id >= 200 && skill.id < 300) {
               return (
@@ -45,7 +46,7 @@ export function Skills() {
           })}
         </Row>
         <h1 id="hobby-info">Hobbies</h1>
-        <Row xs={1} md={2} lg={3} className="g-3 my-2 py-3">
+        <Row xs={1} md={2} lg={3} id="row-container">
           {skills.map((skill) => {
             if (skill.id >= 300 && skill.id < 400) {
               return (
