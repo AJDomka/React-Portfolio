@@ -2,7 +2,7 @@ import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { SkillsModal } from "./SkillModal";
 import { useState } from "react";
-import "../components/css/SkillItem.css";
+import "../components/css/SkillItem-Light.css";
 
 type SkillItemProps = {
   id: number;

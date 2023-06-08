@@ -1,6 +1,7 @@
 import { SetStateAction, useState } from "react";
-import "./css/Hero.css";
+import "./css/Hero-Light.css";
 import { HashLink as Link } from "react-router-hash-link";
+import ToggleSwitch from "./Toggle";
 
 export function Hero() {
   const [isHovered, setIsHovered] = useState(false);
@@ -95,6 +96,7 @@ export function Hero() {
         <Link to="/Skills#hobby-info" className="link-btn" role="button">
           Hobbies
         </Link>
+        <ToggleSwitch />
       </section>
     </>
   );

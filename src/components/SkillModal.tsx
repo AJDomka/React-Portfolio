@@ -1,6 +1,5 @@
-import * as React from "react";
-import "../components/css/SkillModal.css";
-import { Modal, Button, Container, Form, Row, Col } from "react-bootstrap";
+import "../components/css/SkillModal-Light.css";
+import { Modal, Button, Container } from "react-bootstrap";
 
 type SkillItemProps = {
   id: number;

@@ -59,3 +59,8 @@
 #nav-text {
   color: white;
 }
+
+.toggle-container {
+  margin-top: 12px;
+  margin-right: 48px !important;
+}

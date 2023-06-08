@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { SkillItem } from "../components/SkillItem";
 import skills from "../data/skills.json";
 import { Navbar } from "../components/Navbar";
-import "../components/css/Skills.css";
+import "../components/css/Skills-Light.css";
 
 export function Skills() {
   return (

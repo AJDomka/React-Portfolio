@@ -55,3 +55,8 @@
   right: 0;
   transform: translate(33%, 33%);
 }
+
+.toggle-container {
+  margin-top: 12px;
+  margin-right: 48px !important;
+}

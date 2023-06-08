@@ -1,5 +1,4 @@
-import React from "react";
-import "../components/css/About.css";
+import "../components/css/About-Light.css";
 import PhotoOfMe from "../images/Portrait.png";
 
 export function About() {
